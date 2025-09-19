@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Erick Silva | Entretenimento
+    </title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>ERICK<span class="main-color">SILVA</span>
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">FILMES</a></li>
+                    <li><a href="series.html">SÉRIES</a></li>
+                    <li><a href="animacoes.html">ANIMAÇÕES</a></li>
+                    <li><a href="dc.html#top-movies-slide">SUPER-HERÓIS</a></li>
+                    <li>
+                        <a href="#" class="btn btn-hover">
+                            <span>Portfólio</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/dc.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                TOP 10: HERÓIS FAVORITOS <span style="color: #c0392b;">DC</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class='bx bxs-location-plus'></i>
+                                    <span>São Paulo</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                    <span>elarssen.design</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class='bx bxs-paint' ></i>
+                                    <span>Designer Gráfico</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class='bx bx-code-alt' ></i>
+                                    <span>Front-End Developer</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Prepare-se para adentrar o universo sombrio e lendário da DC Comics! Aqui estão os 10 heróis que marcaram minha trajetória como fã, ícones de coragem, sacrifício e justiça. Cada um desses personagens representa algo maior do que si mesmo, enfrentando dilemas humanos em mundos fantásticos. De Gotham a Metrópolis, esses heróis provaram que ser lendário vai além de superpoderes. Este é o meu top 10 pessoal, um tributo aos que me inspiraram a sonhar mais alto.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class='bx bx-search-alt-2'></i>
+                                    <span>Sobre Mim</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/arqueiro-verde.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#10</span> ARQUEIRO <span style="color: #2b8b50;">VERDE</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-user"></i>
+                                    <span>Oliver Queen</span>
+                                </div>
+                                <div class="movie-info" style="display: flex; align-items: center;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                        width="17" height="17" 
+                                        viewBox="0 0 24 24" 
+                                        fill="currentColor" 
+                                        style="margin-right: 6px; color: #c0392b; vertical-align: middle;">
+                                        <path d="m18.79,3.79l-1.33,1.33c-3.84-3.05-9.99-2.71-13.86.87h-1.6v2h2v9.17l1-1V7.44c3.06-2.79,7.96-3.13,11.03-.88l-11.03,11.03-1,1-1.71,1.71,1.41,1.41,1.71-1.71,1-1,11.03-11.03c1.05,1.41,1.57,3.23,1.47,5.23-.11,2.18-.97,4.27-2.36,5.8H7.83l-1,1h9.17v2h2v-1.6c1.72-1.87,2.78-4.44,2.91-7.1.13-2.58-.59-4.94-2.04-6.76l1.33-1.33,1.79,1.79V2h-5l1.79,1.79Z"/>
+                                    </svg>
+                                    <span>Mestre arqueiro</span>
+                                </div>                                                                
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #27ae60; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Sem poderes</span>
+                                </div>                                                          
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Sempre admirei o Arqueiro Verde por ser um herói sem poderes, mas com uma força de vontade absurda. Gosto da forma como o Oliver Queen enfrenta o crime com inteligência, estratégia e um senso de justiça muito próprio. Ele tem uma trajetória de redenção que me inspira, caiu, errou, mas se reconstruiu com garra. Fora que o estilo dele, com arco e flecha, sempre me pareceu único e estiloso demais!
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Arqueiro_Verde" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/shazam.webp" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#9</span> SHAZAM
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-user"></i>
+                                    <span>Billy Batson</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-bolt"></i>
+                                    <span>Poderes dos deuses</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #f1c40f; color: black; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">SHAZAM</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Gosto muito do Shazam porque ele representa a idéia de que qualquer um pode ser um herói, até mesmo uma criança comum. O contraste entre o espírito juvenil do Billy Batson e o poder grandioso que ele recebe cria momentos divertidos, mas também profundos. Me identifico com essa mistura de humor, coração e responsabilidade. Além disso, a mensagem de que a verdadeira força está na união e na família me toca de um jeito especial.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Capit%C3%A3o_Marvel_(DC_Comics)" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/cyborg.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#8</span> CYBORG <span style="color: #c0392b;"></span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-user"></i>
+                                    <span>Victor Stone</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-cog"></i>
+                                    <span>Parte homem, parte máquina</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #2980b9; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Alta tecnologia</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                O Cyborg sempre me impactou porque ele representa a luta entre o que somos e o que nos tornamos. Gosto da forma como o Victor Stone aprendeu a aceitar suas partes humanas e tecnológicas, mostrando que nossas cicatrizes, internas ou externas, podem se transformar em força. Ele é inteligente, leal e extremamente poderoso, mas o que mais me inspira é a humanidade que ele preserva mesmo em meio a tanta tecnologia. É um herói que carrega dor, mas também esperança.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Cyborg_(DC_Comics)" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/lanterna-verde.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#7</span> LANTERNA <span style="color: #2b8b50;">VERDE</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-user"></i>
+                                    <span>Hal Jordan</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-planet"></i>
+                                    <span>Tropa dos Lanternas Verdes</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #27ae60; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Anel Energético</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                O Hal Jordan sempre foi um dos meus heróis favoritos por causa da coragem dele, não só a de enfrentar inimigos poderosos, mas a de encarar seus próprios medos. A ideia de que a força da vontade é o que move seu poder sempre me inspirou. Ele é ousado, determinado e leal, mesmo quando o universo inteiro está contra ele. O anel pode escolher qualquer um, mas escolheu Hal por aquilo que ele carrega por dentro… e isso sempre me fez admirar ainda mais esse personagem.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://en.wikipedia.org/wiki/Hal_Jordan" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/mulher-maravilha.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#6</span> MULHER <span style="color: #c0392b;">MARAVILHA</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-diamond"></i>
+                                    <span>Princesa Amazona "Diana Prince"</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-heart"></i>
+                                    <span>Força, coragem e compaixão</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #8e44ad; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Laço da Verdade</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Gosto da Mulher-Maravilha porque ela representa a união perfeita entre força e compaixão. Gosto de como a Diana luta com coragem, mas também com sabedoria e empatia, ela não entra em batalha só com a espada, mas com o coração. A origem mitológica dela, o senso de justiça e a forma como ela defende o que acredita, mesmo sozinha, me fazem admirá-la demais. Ela é mais do que uma heroína… é um símbolo de esperança, equilíbrio e verdade.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Mulher-Maravilha" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/caçador-de-marte.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#5</span> CAÇADOR DE <span style="color: #165330;">MARTE</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-planet"></i>
+                                    <span>Nascido em Marte</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-brain"></i>
+                                    <span>Telepatia & Metamorfose</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #2c3e50; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Vulnerável ao Fogo</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Sempre tive um carinho especial pelo Caçador de Marte, ele era o meu favorito na Liga da Justiça do SBT. Ele carrega uma solidão silenciosa que me emociona, por ser o último de sua espécie e ainda assim escolher proteger a humanidade. Gosto da sabedoria dele, da calma com que age, mesmo sendo um dos mais poderosos do universo. A história dele me faz refletir sobre empatia, identidade e pertencimento. J’onn não luta apenas com força, mas com mente e alma, e isso me faz admirá-lo profundamente..
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://en.wikipedia.org/wiki/Martian_Manhunter" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/aquaman.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#4</span> AQUAMAN
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-crown"></i>
+                                    <span>Rei de Atlântida "Arthur Curry"</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-droplet"></i>
+                                    <span>Respira debaixo d'água</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #2980b9; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Tridente de Poseidon</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Admiro Aquaman por ser um herói que vive entre dois mundos, o da superfície e o das profundezas. Gosto da dualidade dele: ao mesmo tempo em que é um guerreiro poderoso, também é um rei que luta por equilíbrio e responsabilidade, com muita irreverência. A conexão com o oceano, a imponência, e o senso de dever com seu povo me inspiram. Ele mostra que liderança não é sobre domínio, mas sobre proteger, unir e respeitar. E visualmente, ele é simplesmente imponente demais!
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Aquaman" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/flash.webp" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#3</span><span style="color: #c0392b;"> FLASH</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-user"></i>
+                                    <span>Barry Allen</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-bolt"></i>
+                                    <span>Mais rápido que a luz</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #e74c3c; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Multiverso</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                O Flash sempre teve minha admiração não só pela velocidade, mas pelo coração. Gosto do Barry Allen porque, mesmo com todo o poder de mudar o tempo, ele continua sendo um cara simples, que valoriza as pessoas à sua volta. A forma como ele lida com perdas e responsabilidades, sem perder o bom humor, me inspira muito. Ele corre contra o tempo, literalmente, mas nunca esquece o que realmente importa: salvar vidas e proteger quem ama. Isso, pra mim, é ser um verdadeiro herói.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Flash_(DC_Comics)" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/superman.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#2</span> <span style="color: #2b6cc0;">SUPER</span><span style="color: #9b1203;">MAN</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-planet"></i>
+                                    <span>Filho de Krypton "Clark Kent"</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class='bx  bx-universal-access'  ></i>
+                                    <span>Força, voo e visão laser</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #2980b9; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">S</span>
+                                </div>                                                               
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                O Superman sempre foi, pra mim, o símbolo máximo de esperança. Gosto da forma como ele representa o melhor que podemos ser, mesmo não sendo humano. Ele poderia dominar o mundo com facilidade, mas escolhe protegê-lo com humildade, compaixão e justiça. É essa escolha, de fazer o bem mesmo tendo o poder absoluto, que me inspira. Ele me lembra que ser forte de verdade é ter coração, valores e a coragem de fazer o certo, mesmo quando é difícil.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Superman" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/batman.jpg" alt="Foto">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                <span style="font-weight: bold; color: #7f8c8d; font-size: 1.2em; letter-spacing: 1px;">#1</span><span style="color: #aaaaaa;"> BATMAN</span>
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-user"></i>
+                                    <span>Bruce Wayne</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-brain"></i>
+                                    <span>Gênio, Detetive, Estrategista</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-group"></i>
+                                    <span>Liga da Justiça</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span style="background: #2c3e50; color: white; padding: 2px 6px; border-radius: 5px; font-size: 0.8em;">Morcego de Gotham</span>
+                                </div>                                                                
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                O Batman é, e sempre será, o meu herói favorito. Gosto dele porque, mesmo sem superpoderes, ele enfrenta os maiores perigos com inteligência, estratégia e uma força de vontade inabalável. O que mais me toca nele não é a força ou os equipamentos, é a dor que ele carrega em silêncio e a maneira como transforma essa dor em propósito. Ele perdeu tudo quando era apenas uma criança, mas em vez de se afundar na escuridão, decidiu usá-la como aliada. Cada vez que vejo o símbolo do morcego, lembro que é possível ser forte mesmo quando tudo parece quebrado. Ele me lembra que até a escuridão pode ser usada pra proteger os outros, e com preparo, foco e convicção, qualquer um pode se tornar algo maior. 
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://pt.wikipedia.org/wiki/Batman" target="_blank" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Saiba Mais</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+            </div>
+        </div>
+                <!-- TOP MOVIES SLIDE -->
+        <div class="top-movies-slide">
+            <div class="owl-carousel" id="top-movies-slide">
+                
+                <!-- MOVIE ITEM - DC HEROES -->
+                <div class="movie-item">
+                    <a href="./dc.html">
+                        <img src="./images/dc-herois1.jpg" alt="Heróis da DC">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Heróis da DC
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Favoritos</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>DC Comics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END MOVIE ITEM -->
+
+                <!-- MOVIE ITEM - MARVEL HEROES -->
+                <div class="movie-item">
+                    <a href="./marvel.html">
+                        <img src="./images/marvel-herois1.jpg" alt="Heróis da Marvel">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Heróis da Marvel
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Favoritos</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Marvel Studios</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END MOVIE ITEM -->
+
+                <!-- MOVIE ITEM - ANTI-HEROES -->
+                <div class="movie-item">
+                    <a href="./anti-herois.html">
+                        <img src="./images/anti-herois1.jpg" alt="Anti-heróis">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Anti-Heróis
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Complexos</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>DC & Marvel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END MOVIE ITEM -->
+
+                <!-- MOVIE ITEM - VILLAINS -->
+                <div class="movie-item">
+                    <a href="./viloes.html">
+                        <img src="./images/viloes1.jpg" alt="Vilões">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Vilões Inesquecíveis
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Icônicos</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Inimigos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END MOVIE ITEM -->
+
+                <!-- MOVIE ITEM - UNDERRATER HEROES -->
+                <div class="movie-item">
+                    <a href="./herois-subestimados.html">
+                        <img src="./images/herois-subestimados.jpg" alt="Heróis Subestimados">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Heróis Subestimados
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Pouco valorizados, muito poderosos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END MOVIE ITEM -->
+
+                <!-- MOVIE ITEM - TEAMS -->
+                <div class="movie-item">
+                    <a href="./equipes.html">
+                        <img src="./images/crossover1.jpg" alt="Equipes">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Equipes
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Parcerias</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Alianças</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- END MOVIE ITEM -->
+
+            </div>
+        </div>
+        <!-- END TOP MOVIES SLIDE -->
+
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- COLEÇÕES FAVORITAS SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="pricing">
+                <div class="pricing-header">
+                    Minhas <span class="main-color">C</span>oleções
+                </div>
+                <div class="pricing-list">
+                    <div class="row">
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        Nostalgia
+                                    </div>
+                                    <div class="pricing-price">
+                                        Anos 90 e 2000
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Filmes que marcaram minha infância</p>
+                                    <p>Séries clássicas da TV aberta</p>
+                                    <p>Animações memoráveis</p>
+                                    <p>Roteiros que ainda me emocionam</p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="nostalgia.html" class="btn btn-hover">
+                                        <span>Ver coleção</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box hightlight">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        Super-Heróis em Alta
+                                    </div>
+                                    <div class="pricing-price">
+                                        Top 11 Favoritos
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Filmes que marcaram minha vida</p>
+                                    <p>Heróis que me inspiram até hoje</p>
+                                    <p>Roteiros épicos e emocionantes</p>
+                                    <p>Ação, poder e significado</p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="super-herois.html" class="btn btn-hover">
+                                        <span>Ver coleção</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        Recentes & Incríveis
+                                    </div>
+                                    <div class="pricing-price">
+                                        Últimos Assistidos
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Descobertas incríveis</p>
+                                    <p>Novas animações que amei</p>
+                                    <p>Séries atuais marcantes</p>
+                                    <p>Vale a pena assistir!</p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="recentes.html" class="btn btn-hover">
+                                        <span>Ver coleção</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END COLEÇÕES FAVORITAS SECTION -->
+
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bx-movie-play bx-tada main-color'></i>Erick<span class="main-color">Silva</span>
+                        </a>
+                        <p>
+                            Portfólio criativo de Erick Silva — designer, animador e desenvolvedor front-end apaixonado por cinema, super-heróis e narrativas visuais. Explore, inspire-se e conecte-se com ideias únicas.
+                        </p>
+                        <div class="social-list">
+                            <a href="https://www.instagram.com/elarssen.design/" class="social-item" target="_blank">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                            <a href="https://www.behance.net/ericklarssen/" class="social-item" target="_blank">
+                                <i class="bx bxl-behance"></i>
+                            </a>
+                            <a href="https://wa.me/5511932245843" class="social-item" target="_blank">
+                                <i class="bx bxl-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Explorar</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">DC Heroes</a></li>
+                                    <li><a href="#">Marvel Heroes</a></li>
+                                    <li><a href="#">Anti-Heróis</a></li>
+                                    <li><a href="#">Vilões Icônicos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Projetos</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">Animações 2D</a></li>
+                                    <li><a href="#">Identidade Visual</a></li>
+                                    <li><a href="#">Web Design</a></li>
+                                    <li><a href="#">Motion Graphics</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Ajuda</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">Fale comigo</a></li>
+                                    <li><a href="#">Dúvidas frequentes</a></li>
+                                    <li><a href="#">Suporte técnico</a></li>
+                                    <li><a href="#">Parcerias</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Redes & Portfólio</b></p>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="https://www.youtube.com/@ElarssenDesign/" target="_blank">
+                                            <i class="bx bxl-youtube"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/ErickLarssen/" target="_blank">
+                                            <i class="bx bxl-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        Copyright 2025 <a href="https://www.instagram.com/elarssen.design/" target="_blank">
+            Elarssen Design & Multimídia</a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
