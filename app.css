@@ -575,6 +575,38 @@ footer .content {
     }
 }
 
+@media only screen and (max-width: 884px) {
+    html {
+        font-size: 13px;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+
+    .hero-slide-item {
+        padding-top: 60%;
+    }
+
+    .item-content-wraper {
+        width: 60%;
+        padding-left: 3rem;
+    }
+
+    .item-content-title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .movie-info {
+        font-size: 0.7rem;
+    }
+
+    .item-content-description {
+        font-size: 1rem;
+    }
+}
+
 @media only screen and (max-width: 850px) {
 
     html {
@@ -586,7 +618,7 @@ footer .content {
     }
 
     .hero-slide-item {
-        height: max-content;
+        height: 100vh;
         padding-top: unset;
     }
 
